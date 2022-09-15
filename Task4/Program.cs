@@ -11,7 +11,7 @@ int Prompt(string messege)
     return value;
 }
 int Number = Prompt(" Введите число > ");
-int i = 1;
+int i = 2;
 System.Console.WriteLine(" Чётные числа от 1 до " + Number);
 while (i <= Number)
 {
@@ -19,5 +19,5 @@ while (i <= Number)
     {
         System.Console.Write(i + " ");
     }
-    i++;
+    i += 2;
 }
